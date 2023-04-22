@@ -1,72 +1,96 @@
 *{
-    background-color: black;
-    color:limegreen;
+    background-color:#e5eaf5;
+    color:black;
     font-size: 16px;
+    box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 :root{
     --under:underline purple;
-    --fix:fixed
+    --fix:fixed;
+    --light:lightblue;
+
 }
 header { 
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: aqua;
 
 }
 header h1{
    font-size: xx-large;
    text-decoration: var(--under);
+   background-color: aqua;
+   
 
 }
 header h2{
     font: size 75%; 
     text-decoration:var(--under);
+    background-color: aqua;
 }
+
 .nav ul  {
 display: flex;
 flex-direction: row;
+position: absolute;
+right: 2%;
+align-items:flex-end;
 text-decoration:var(--under);
+margin: 2%;
+
+
 }
 
 
- article {
+.work {
     display:flex;
     flex-direction: column;
     margin: 4% 4%;
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 650px;
+    background-color:var(--light);
     
-
+    
  }
 article h1 {
     font-size: x-large;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color:var(--light);
     
 
 }
+section {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 2%;
+    margin: 2%;
+    background-color: var(--light);
+    }
 article h2 {
     font-size: large;
    display: inline-flex;
+   background-color: var(--light);
     
   
 
 }
 article h3 {
     font-size: medium;
+    background-color:var(--light);
 
 }
 
 article p {
     font-size: small;
+    background-color: var(--light);
 
 }
-section {
-display: inline-flex;
-flex-direction: row;
-padding: 2%;
-margin: 2%
-}
+
 
 
 
